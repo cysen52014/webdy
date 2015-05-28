@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*==================注册===============================*/
+.regPop{width:597px;padding-bottom:15px;background:url(img/regB.gif) no-repeat center bottom;/*position:absolute;left:50%;top:20%;margin-left:-300px; z-index:999;*/}
+.regPop h3,.logPop h3,.anPop h3,.sysPop h3{height:40px;}
+.regPop h3{background:url(img/popT.gif) no-repeat;}
+
+.regPop h3 span,.logPop h3 span,.anPop h3 span,.sysPop h3 span{width:150px; text-indent:-999em;float:left;}
+.regPop h3 a,.logPop h3 a,.anPop h3 a,.sysPop h3 a{width:34px;height:28px;margin:2px 2px 0 0;background:url(img/popClose.gif) no-repeat; text-indent:-999em;overflow:hidden;float:right;_display:inline;}
+.regPop h3 a:hover,.logPop h3 a:hover,.anPop h3 a:hover,.sysPop h3 a:hover{background:url(img/popClose.gif) no-repeat 0 -28px;}
+
+
+
+.regMain{width:597px;margin:0 auto;padding-top:30px;background:url(img/regM.gif) repeat-y;}
+.iDiv,.validate,.iBtn,.logM p,.anP p{height:26px;margin:0 0 25px 30px;}
+.iDiv,.validate{ margin:0 0 25px 45px;}
+.iDiv label,.validate label,.logM p label,.anP p label{width:80px; height:26px; line-height:26px;font-size:14px; font-weight:bold;  color:#07829f;text-align:right;float:left;}
+.iDiv p,.validate p{height:26px;float:left;}
+.iDiv p input.i,.validate input,.logM p input.i,.anP p input.i{ width:180px;height:24px; line-height:24px;padding-left:5px;border:1px solid #90c5d0;background-color:#fff;}
+
+.validate{}
+.validate input{width:120px;}
+.validate img{width:54px;height:22px;margin:2px 5px 0;float:left;}
+.validate a{color:#0500d6;height:16px;line-height:16px;margin-top:5px; text-decoration:underline;float:left;}
+.validate a:hover{ color:#F60;}
+
+.iDiv span,.anP span{height:26px;line-height:26px;margin-left:5px;color:#f09800;float:left;_display:inline;}
+.iDiv .warn,.anP span.warn{color:#F00}
+.iDiv .suc{}
+
+.checkbox{ height:25px;margin-bottom:20px;}
+.checkbox label{ width:97px;height:25px;line-height:25px; font-weight:normal; font-size:12px; margin:0 0 0 5px; padding:0; color:#07829f; font-family:"宋体";float:left;_display:inline;}
+.checkbox input{width:13px;height:13px; margin:4px 0 0 124px;float:left;}
+.checkbox a{height:26px; line-height:26px; text-decoration:none; color:#07829f; float:left;}
+.checkbox a:hover{ color:#f60}
+
+.iBtn{height:50px;}
+.iBtn button{width:149px;height:47px;line-height:50px; margin-left:96px;display:block; text-indent:-999em;overflow:hidden;border:none;background:url(img/popBtn.jpg) no-repeat 0 -94px;}
+.iBtn button.subOn{background:url(img/popBtn.jpg) no-repeat 0 -141px;}
+
+
+/*====================登录===========================*/
+.logPop{width:372px;padding-bottom:10px;background:url(img/logB.gif) no-repeat center bottom;}
+.logPop h3{background:url(img/popT.gif) no-repeat 0 -80px;}
+
+.logM{position:relative;width:372px;margin:0 auto;padding-top:30px;background:url(img/logM.gif) repeat-y;}
+
+.logM p{ margin:0 0 25px 15px}
+.logM p input.i{width:160px;}
+.logM p.check{height:18px;margin-left:58px;display:none;}
+.logM p.check input{margin-top:2px;float:left;}
+.logM p.check label{width:77px;height:18px;line-height:18px;font-size:12px;color:#725858;}
+
+.logM p.p3{height:47px;}
+.logM p button{width:149px;height:47px;margin-left:80px;display:block; text-indent:-999em;overflow:hidden;border:none;background:url(img/popBtn.jpg) no-repeat 0 -188px;}
+.logM p button.bOn{background:url(img/popBtn.jpg) no-repeat 0 -235px;}
+
+.logM p.p4{height:18px; line-height:18px;position:absolute;right:38px;top:88px;}
+.logM p.p4 a,.logM p.p5 a,.anP p a,.sysM p a{color:#f09800; text-decoration:underline; font-weight:bold;}
+.logM p.p4 a:hover,.logM p.p5 a:hover,.anP p a:hover,.sysM p a:hover{color:#F60;}
+
+.logM p.p5{line-height:24px;position:absolute;right:50px;top:30px;}
+
+
+/*====================答题结束===========================*/
+.anPop{width:477px;padding-bottom:8px;background:url(img/anB.gif) no-repeat center bottom;}
+.anPop h3{background:url(img/popT.gif) no-repeat 0 -40px;}
+
+.anM{width:477px;margin:0 auto;padding-top:20px;background:url(img/anM.gif) repeat-y;}
+.anM h4{width:410px;height:80px;line-height:25px;font-size:14px; font-weight:normal; text-indent:2em;margin:0 auto;}
+
+.anP{width:410px;margin:0 auto;}
+.anP p{margin:0 0 25px 0;}
+.anP p a{height:18px;line-height:18px;margin:3px 0 0 5px;float:left;}
+.anP p input{float:left;}
+.anP p strong{height:26px;line-height:26px;font-size:14px;color:#07829f;float:left;}
+.anP p.pBtn{height:47px;}
+.anP p.pBtn button{width:149px;height:47px;margin-left:80px;display:block; text-indent:-999em;overflow:hidden;border:none;background:url(img/popBtn.jpg) no-repeat 0 0;}
+.anP p.pBtn button.bOn{background:url(img/popBtn.jpg) no-repeat 0 -47px;}
+
+.anTip{width:462px;height:20px;line-height:20px;padding:15px 0;margin:0 auto;background-color:#dff3f6;border-top:1px solid #cbebf2;}
+.anTip p{color:#07829f;padding-left:30px;}
+.anTip p var{color:#F00;}
+
+/*====================系统提示===========================*/
+
+.sysPop{width:330px;padding-bottom:10px;background:url(img/sysB.gif) no-repeat center bottom;}
+.sysPop h3{background:url(img/popT.gif) no-repeat 0 -120px;}
+.sysM{width:330px;margin:0 auto;padding-top:20px;background:url(img/sysM.gif) repeat-y;}
+
+.sysM p{width:280px;margin:0 auto 20px;line-height:25px;}
+.sysM p.f1{ text-indent:2em;}
+.sysM p.f2{ padding:0 0 0 18px}
+.sysM p.pBtn{height:47px;margin:0;}
+.sysM p.pBtn a{width:81px;height:30px;line-height:30px; display:block;text-align:center;font-size:14px; font-weight:bold;color:#7c5500;margin:0 auto;background:url(img/popBtn.jpg) no-repeat 0 -282px; text-decoration:none;}
+.sysM p.pBtn a:hover{color:#b34800;background:url(img/popBtn.jpg) no-repeat 0 -312px;}
